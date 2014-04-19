@@ -8,8 +8,8 @@ res = html {lang: 'en'}, (_)->
   _ "body", (_)->
     _ "h1", page_title
     _ "#main", (_)->
-      url = "http://k2lab.net/"
-      _ "a[href=#{url}][name=link]", url
+      url = "/"
+      _ "a[href=#{url}][name=link]", "Top"
       _ "p#id_p", {style: "color:red"}, "Hello"
       _ "hr.class_hr"
       _ "p", "World"
