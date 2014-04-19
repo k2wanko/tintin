@@ -1,0 +1,15 @@
+{
+  "name": "html-render",
+  "version": "0.0.0",
+  "description": "JS DSL, HTML rendering module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dsl",
+    "html"
+  ],
+  "author": "Kazuhiro Kubota",
+  "license": "MIT"
+}
