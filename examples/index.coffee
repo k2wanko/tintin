@@ -15,4 +15,4 @@ res = html {lang: 'en'}, (_)->
       _ "p", "World"
       _ "input", {class: ['btn', 'btn-default']}
 
-console.log res.toHTML true
+console.log res.toHTML()
