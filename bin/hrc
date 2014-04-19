@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+require('coffee-script/register');
+html = require('../lib/html-render');
+
+var uglify = process.argv.indexOf('-u') > 0 ? true : false;
+var target = process.argv[2];
+var element = require(process.cwd() + '/' + target);
+console.log(element.toHTML(uglify));

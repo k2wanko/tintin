@@ -11,5 +11,8 @@
     "html"
   ],
   "author": "Kazuhiro Kubota",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
+  }
 }

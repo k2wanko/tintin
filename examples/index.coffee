@@ -1,8 +1,6 @@
-html = require '../lib/html-render'
-
 page_title = "HTML Render"
 
-res = html {lang: 'en'}, (_)->
+module.exports = html {lang: 'en'}, (_)->
   _ "head", (_)->
     _ "title", page_title
   _ "body", (_)->
@@ -14,5 +12,3 @@ res = html {lang: 'en'}, (_)->
       _ "hr.class_hr"
       _ "p", "World"
       _ "input", {class: ['btn', 'btn-default']}
-
-console.log res.toHTML()
