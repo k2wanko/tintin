@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
 require('coffee-script/register');
-html = require('../lib/tintin');
+var tintin = global.tintin = require('../lib/tintin');
 
 var uglify = process.argv.indexOf('-u') > 0 ? true : false;
 var target = process.argv[2];
-var element = require(process.cwd() + '/' + target);
-console.log(element.toHTML(uglify));
+var element = require(process.cwd() + '/' + target);console.log(element.toHTML(uglify));
