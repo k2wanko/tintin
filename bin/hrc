@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 require('coffee-script/register');
-html = require('../lib/html-render');
+html = require('../lib/tintin');
 
 var uglify = process.argv.indexOf('-u') > 0 ? true : false;
 var target = process.argv[2];
