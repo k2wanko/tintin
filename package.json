@@ -1,8 +1,9 @@
 {
   "name": "tintin",
   "version": "0.0.0",
+  "private": "true",
   "description": "JS DSL, HTML rendering module.",
-  "main": "index.js",
+  "main": "./lib/tintin.js",
   "scripts": {
     "test": ""
   },
@@ -12,7 +13,10 @@
   ],
   "author": "Kazuhiro Kubota",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "coffee-script": "^1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
   }
 }
