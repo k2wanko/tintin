@@ -1,7 +1,7 @@
 {
   "name": "tintin",
   "version": "0.0.1",
-  "private": "true",
+  "private": "false",
   "description": "JS DSL, HTML rendering module.",
   "main": "./lib/tintin.js",
   "scripts": {
