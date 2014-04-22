@@ -1,11 +1,14 @@
 {
   "name": "tintin",
   "version": "0.0.1",
-  "private": "false",
   "description": "JS DSL, HTML rendering module.",
   "main": "./lib/tintin.js",
   "scripts": {
     "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/k2wanko/tintin.git"
   },
   "keywords": [
     "dsl",
